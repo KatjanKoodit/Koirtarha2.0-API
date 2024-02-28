@@ -1,0 +1,49 @@
+type User {
+  id: ID
+  username: String
+}
+
+input UserInput {
+  username: String!
+  password: String!
+}
+
+type Query {
+  users: [User]
+  userById(id: String!): User
+  userByUsername(username: String!): User
+}
+
+type TokenMessage {
+  token: String!
+  message: String!
+  user: User!
+}
+
+type RegisterMessage {
+  message: String
+  data: User
+}
+
+type UpdateMessage {
+  message: String
+  data: User
+}
+
+type CheckMessage {
+  message: String
+  data: User
+}
+
+type DeleteMessage {
+  message: String
+  data: User
+}
+
+type Mutation {
+  login(username: String!, password: String!): TokenMessage
+  checkToken: CheckMessage
+  createUser(user: UserInput!): RegisterMessage
+  updateUser(user: UserInput!): UpdateMessage
+  deleteUser(id: String!): DeleteMessage
+}
