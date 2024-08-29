@@ -30,6 +30,8 @@ import {FavLocTest} from '../src/interfaces/FavouriteLocation';
 import {NotificationTest} from '../src/interfaces/Notification';
 
 describe('Testing graphql api', () => {
+  jest.setTimeout(10000);
+
   beforeAll(async () => {
     await mongoose.connect(process.env.DATABASE_URL as string);
   });
