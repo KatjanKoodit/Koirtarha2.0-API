@@ -1,7 +1,7 @@
 {
   "name": "express-api-starter-ts",
   "version": "1.2.0",
-  "description": " A basic starter for an express.js API with Typescript. Based on a school project.",
+  "description": " A basic starter for an express.js API with Typescript. Based on a school project that was based on the code by CJ R.",
   "main": "dist/src/index.js",
   "scripts": {
     "start": "node dist/src/index.js",
@@ -16,7 +16,7 @@
   "author": "CJ R. <cj@null.computer> (https://w3cj.now.sh)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/w3cj/express-api-starter.git"
+    "url": "https://github.com/KPkoodit/Koiratarha2.0-API.git"
   },
   "license": "MIT",
   "dependencies": {
