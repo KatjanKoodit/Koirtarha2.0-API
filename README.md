@@ -6,8 +6,14 @@ Koiratarha 2.0 is a web application that uses the MyHelsinki Open API to show va
 
 The app uses a client (Vite), GraphQL API server, REST API AUTH server and a NoSQL database.
 
+## Used technologies:
+- TypeScript
+- GraphQL
+- Express.js
+- Mongoose
+- Jest
 
-# Get started:
+## Get started:
 
 - Clone this repo
 - Clone the AUTH server: https://github.com/KPkoodit/Koiratarha2.0-Auth
