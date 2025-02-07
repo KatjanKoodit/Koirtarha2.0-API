@@ -8,8 +8,9 @@ The app uses a client (Vite), GraphQL API server, REST API AUTH server and a NoS
 
 ## Used technologies:
 - TypeScript
+- Node.js
+- Express
 - GraphQL
-- Express.js
 - Mongoose
 - Jest
 
